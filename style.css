@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+#sfondo-nero{
+    width: 900px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+}
+
+.container{
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo{
+    width: 20%;
+}
+
+.sottotitolo{
+    font-size: 30px;
+    color: rgb(62, 212, 62);
+    margin-bottom: 5px;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(62, 212, 62);
+    width: 700px;
+    text-align: center;
+    padding: 10px;
+}
+
+#medium-battery{
+    background-color: orange;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+
+#full-battery{
+    background-color: rgb(3, 167, 0);
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#low-battery{
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.monopattino{
+    margin-top: 20px;
+    color: white;
+}
+
+.nome-monopattino{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.direction{
+    margin-bottom: 10px;
+}
+
